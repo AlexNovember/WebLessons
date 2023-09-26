@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.body {
+    background-color: black;
+    min-height: 100vh;
+}
+
+.body-box {
+    display: flex;
+    position: relative;  
+}
+
+.center {
+    padding-left: calc(50vw - 640px);
+    padding-right: calc(50vw - 640px);
+}
+
+.body-left {
+    flex: 1;
+    height: 1067px;
+    flex-shrink: 0;
+    background-image: url(img/man.svg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 51px;
+    
+}
+
+.round {
+    position: absolute;
+    top: -130px;
+    left: 26px;
+}
+
+.triangle {
+    position: absolute;
+    left: 0px;
+}
+
+.body-left-about {
+    position: relative;
+}
+
+.body-left h6{
+    position: absolute;
+    top: 35px;
+    left: 42px;
+    color: #D9D9D9;
+    font-size: 24px;
+    line-height: 135%;
+}
+
+.body-left p{
+    position: absolute;
+    line-height: 140%;
+    color: #D9D9D9;
+    width: 254px;
+    top: 70px;
+    left: 42px;
+}
+
+
+.body-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 244px;
+}
+
+.body-title {
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%;
+    color: #CEB691;
+    margin-bottom: 37px;
+}
+
+.body-text {
+    color: var(--neutral-2, #F7F7F7);
+    font-size: 42px;
+    line-height: 130%;
+    padding-bottom: 47px;
+    width: 578px;
+}
+
+.body-text-teach {
+    color: #EBEBEB;
+    width: 481px;
+    font-size: 17px;
+    line-height: 160%;
+    margin-bottom: 51px;
+}
+
+.body-right-submit {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.submit-button {
+    display: flex;
+    width: 211px;
+    height: 57px;
+    padding: 15px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #C3A473;
+    cursor: pointer;
+    
+    color: #080707;
+    font-size: 17px;
+    line-height: 135%;    
+}
+.submit-button:hover {
+    background: orange;
+    border: none;
+    transition: 0.3s;
+}
+
+.submit-info {
+    width: 288px;
+    color: #BFBFBF;
+    line-height: 140%;
+}
+
+.footer-box {
+    margin-top: 145px;
+    color: white;
+    
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer-links a {
+    color: #F7F7F7;
+    line-height: 135%;
+    margin-right: 35px;
+}
+
+.footer-links a:hover {
+    color: grey;
+    transition: 0.3s;
+}
+
+.link-icon {
+    margin-right: 10px ;
+}
+
+
+
